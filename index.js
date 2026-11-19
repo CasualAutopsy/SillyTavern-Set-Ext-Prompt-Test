@@ -20,7 +20,7 @@ function injectExtPrompts() {
         0, // depth
         false,
         0, // role (0 = system)
-        () => false, // Filter (expected behavior: promt is NOT injected.)
+        () => false, // Filter (expected behavior: prompt is NOT injected.)
     );
 }
 
