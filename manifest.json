@@ -1,0 +1,7 @@
+{
+    "display_name": "Extension Prompt Test",
+    "loading_order": 100,
+    "js": "index.js",
+    "author": "EquinoxPsychosis",
+    "version": "0.1.0"
+}
