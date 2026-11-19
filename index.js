@@ -6,21 +6,21 @@ function injectExtPrompts() {
     setExtensionPrompt(
         'ext-prompt-test',
         'test 123',
-        1,
-        0,
+        1, // position (1 = @depth)
+        0, // depth
         false,
-        0,
-        () => true,
+        0, // role (0 = system)
+        () => true, // Filter (expected behavior: prompt is injected.)
     );
 
     setExtensionPrompt(
         'ext-prompt-test2',
         'test 456',
-        1,
-        0,
+        1, // position (1 = @depth)
+        0, // depth
         false,
-        0,
-        () => false,
+        0, // role (0 = system)
+        () => false, // Filter (expected behavior: promt is NOT injected.)
     );
 }
 
